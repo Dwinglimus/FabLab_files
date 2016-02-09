@@ -1,0 +1,143 @@
+{
+    "nodes": [
+        {
+            "datums": [
+                {
+                    "expr": "0",
+                    "name": "x0",
+                    "type": "float",
+                    "uid": 0
+                },
+                {
+                    "expr": "0",
+                    "name": "y0",
+                    "type": "float",
+                    "uid": 1
+                },
+                {
+                    "expr": "1",
+                    "name": "r",
+                    "type": "float",
+                    "uid": 2
+                },
+                {
+                    "expr": "0",
+                    "name": "_a",
+                    "type": "float",
+                    "uid": 3
+                },
+                {
+                    "expr": "\u0012fab.types.Shape('-r+qXqYf1',float('-1.000000'),float('-1.000000'),float('-inf'),float('1.000000'),float('1.000000'),float('inf'))",
+                    "name": "shape",
+                    "type": "_fabtypes.Shape",
+                    "uid": 4
+                }
+            ],
+            "inspector": [
+                -691.79213463637302,
+                -94.604052599845886
+            ],
+            "name": "c0",
+            "script": [
+                "# Neil Gershenfeld 1/24/15",
+                "# Matt Keeter 6/11/18",
+                "",
+                "import fab",
+                "import math",
+                "",
+                "title('Circle (center)')",
+                "",
+                "input('x0',float)",
+                "input('y0',float)",
+                "input('r',float)",
+                "input('_a',float)",
+                "",
+                "output('shape', fab.shapes.circle(x0, y0, r))",
+                "",
+                "def drag_r(this,x,y,z):",
+                "    dx = x - this.x0",
+                "    dy = y - this.y0",
+                "    this.r = math.sqrt(dx**2 + dy**2)",
+                "    this._a = math.atan2(dy, dx)",
+                "",
+                "# UI",
+                "sb.ui.wireframe([",
+                "    (math.cos(i/36. * 2*math.pi) * r + x0,",
+                "     math.sin(i/36. * 2*math.pi) * r + y0, 0)",
+                "    for i in range(36)], close=True)",
+                "sb.ui.point(x0,y0)",
+                "sb.ui.point(x0 + r*math.cos(_a),",
+                "             y0 + r*math.sin(_a),",
+                "             drag=drag_r, relative=False)",
+                "",
+                ""
+            ],
+            "uid": 0
+        },
+        {
+            "datums": [
+                {
+                    "expr": "-0.0006928741931915283",
+                    "name": "x0",
+                    "type": "float",
+                    "uid": 0
+                },
+                {
+                    "expr": "5.31876403093338",
+                    "name": "y0",
+                    "type": "float",
+                    "uid": 1
+                },
+                {
+                    "expr": "0.9879160523414612",
+                    "name": "x1",
+                    "type": "float",
+                    "uid": 2
+                },
+                {
+                    "expr": "0.013615250587463379",
+                    "name": "y1",
+                    "type": "float",
+                    "uid": 3
+                },
+                {
+                    "expr": "\u0012fab.types.Shape('aa-f-0.000692874X-Xf0.987916a-f5.31876Y-Yf0.0136153',float('-0.000693'),float('5.318764'),float('-inf'),float('0.987916'),float('0.013615'),float('inf'))",
+                    "name": "shape",
+                    "type": "_fabtypes.Shape",
+                    "uid": 4
+                }
+            ],
+            "inspector": [
+                -582.70418484378047,
+                -21.208020701008579
+            ],
+            "name": "r0",
+            "script": [
+                "# Neil Gershenfeld 1/24/15",
+                "# Matt Keeter 6/11/15",
+                "",
+                "import fab",
+                "",
+                "title('Rectangle (corner)')",
+                "",
+                "input('x0', float)",
+                "input('y0', float)",
+                "input('x1', float)",
+                "input('y1', float)",
+                "",
+                "output('shape', fab.shapes.rectangle(x0, x1, y0, y1))",
+                "",
+                "# UI",
+                "sb.ui.wireframe([(x0, y0, 0), (x1, y0, 0),",
+                "                  (x1, y1, 0), (x0, y1, 0)], close=True)",
+                "sb.ui.point(x0, y0)",
+                "sb.ui.point(x1, y1)",
+                "",
+                ""
+            ],
+            "uid": 1
+        }
+    ],
+    "protocol": 6,
+    "type": "sb"
+}

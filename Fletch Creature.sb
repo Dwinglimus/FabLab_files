@@ -1,0 +1,591 @@
+{
+    "nodes": [
+        {
+            "datums": [
+                {
+                    "expr": "0.29928378760814667",
+                    "name": "x",
+                    "type": "float",
+                    "uid": 0
+                },
+                {
+                    "expr": "-0.0827023983001709",
+                    "name": "y",
+                    "type": "float",
+                    "uid": 1
+                },
+                {
+                    "expr": "-0.025903694331645966",
+                    "name": "z",
+                    "type": "float",
+                    "uid": 2
+                },
+                {
+                    "expr": "0.8788349628448486",
+                    "name": "r",
+                    "type": "float",
+                    "uid": 3
+                },
+                {
+                    "expr": "\u0012fab.types.Shape('-r++q-Xf0.299284q-Yf-0.0827024q-Zf-0.0259037f0.878835',float('-0.579551'),float('-0.961537'),float('-0.904739'),float('1.178119'),float('0.796133'),float('0.852931'))",
+                    "name": "shape",
+                    "type": "_fabtypes.Shape",
+                    "uid": 4
+                }
+            ],
+            "inspector": [
+                -275.13347297038842,
+                -180.16629723063858
+            ],
+            "name": "s0",
+            "script": [
+                "import fab",
+                "import math",
+                "",
+                "title('Sphere (center)')",
+                "",
+                "input('x', float)",
+                "input('y', float)",
+                "input('z', float)",
+                "input('r', float)",
+                "",
+                "output('shape', fab.shapes.sphere(x, y, z, r))",
+                "",
+                "# UI",
+                "sb.ui.wireframe([",
+                "    (math.cos(i/36. * 2*math.pi) * r + x,",
+                "     math.sin(i/36. * 2*math.pi) * r + y, z)",
+                "    for i in range(36)], close=True)",
+                "sb.ui.wireframe([(x,y,z-r), (x,y,z+r)])",
+                "",
+                "sb.ui.point(x, y, z)",
+                "sb.ui.point(x, y, z + r, drag=(None, None, r))",
+                "sb.ui.point(x, y, z - r, drag=(None, None, r))",
+                ""
+            ],
+            "uid": 0
+        },
+        {
+            "datums": [
+                {
+                    "expr": "-0.04232141375541687",
+                    "name": "x",
+                    "type": "float",
+                    "uid": 0
+                },
+                {
+                    "expr": "-0.03673136234283447",
+                    "name": "y",
+                    "type": "float",
+                    "uid": 1
+                },
+                {
+                    "expr": "0.9376479405909777",
+                    "name": "z",
+                    "type": "float",
+                    "uid": 2
+                },
+                {
+                    "expr": "0.6449796753004193",
+                    "name": "r",
+                    "type": "float",
+                    "uid": 3
+                },
+                {
+                    "expr": "\u0012fab.types.Shape('-r++q-Xf-0.0423214q-Yf-0.0367314q-Zf0.937648f0.64498',float('-0.687301'),float('-0.681711'),float('0.292668'),float('0.602658'),float('0.608248'),float('1.582628'))",
+                    "name": "shape",
+                    "type": "_fabtypes.Shape",
+                    "uid": 4
+                }
+            ],
+            "inspector": [
+                -306.66075569021717,
+                67.645754931665536
+            ],
+            "name": "s1",
+            "script": [
+                "import fab",
+                "import math",
+                "",
+                "title('Sphere (center)')",
+                "",
+                "input('x', float)",
+                "input('y', float)",
+                "input('z', float)",
+                "input('r', float)",
+                "",
+                "output('shape', fab.shapes.sphere(x, y, z, r))",
+                "",
+                "# UI",
+                "sb.ui.wireframe([",
+                "    (math.cos(i/36. * 2*math.pi) * r + x,",
+                "     math.sin(i/36. * 2*math.pi) * r + y, z)",
+                "    for i in range(36)], close=True)",
+                "sb.ui.wireframe([(x,y,z-r), (x,y,z+r)])",
+                "",
+                "sb.ui.point(x, y, z)",
+                "sb.ui.point(x, y, z + r, drag=(None, None, r))",
+                "sb.ui.point(x, y, z - r, drag=(None, None, r))",
+                ""
+            ],
+            "uid": 1
+        },
+        {
+            "datums": [
+                {
+                    "expr": "1.0376046895980835",
+                    "name": "x",
+                    "type": "float",
+                    "uid": 0
+                },
+                {
+                    "expr": "-0.4178134799003601",
+                    "name": "y",
+                    "type": "float",
+                    "uid": 1
+                },
+                {
+                    "expr": "-0.6303221434354782",
+                    "name": "z",
+                    "type": "float",
+                    "uid": 2
+                },
+                {
+                    "expr": "1",
+                    "name": "r",
+                    "type": "float",
+                    "uid": 3
+                },
+                {
+                    "expr": "\u0012fab.types.Shape('-r++q-Xf1.0376q-Yf-0.417813q-Zf-0.630322f1',float('0.037605'),float('-1.417814'),float('-1.630322'),float('2.037605'),float('0.582187'),float('0.369678'))",
+                    "name": "shape",
+                    "type": "_fabtypes.Shape",
+                    "uid": 4
+                }
+            ],
+            "inspector": [
+                -16.969999133258,
+                34.082554189094608
+            ],
+            "name": "s2",
+            "script": [
+                "import fab",
+                "import math",
+                "",
+                "title('Sphere (center)')",
+                "",
+                "input('x', float)",
+                "input('y', float)",
+                "input('z', float)",
+                "input('r', float)",
+                "",
+                "output('shape', fab.shapes.sphere(x, y, z, r))",
+                "",
+                "# UI",
+                "sb.ui.wireframe([",
+                "    (math.cos(i/36. * 2*math.pi) * r + x,",
+                "     math.sin(i/36. * 2*math.pi) * r + y, z)",
+                "    for i in range(36)], close=True)",
+                "sb.ui.wireframe([(x,y,z-r), (x,y,z+r)])",
+                "",
+                "sb.ui.point(x, y, z)",
+                "sb.ui.point(x, y, z + r, drag=(None, None, r))",
+                "sb.ui.point(x, y, z - r, drag=(None, None, r))",
+                ""
+            ],
+            "uid": 2
+        },
+        {
+            "datums": [
+                {
+                    "expr": "-0.25106994807720184",
+                    "name": "x",
+                    "type": "float",
+                    "uid": 0
+                },
+                {
+                    "expr": "0.16091656684875488",
+                    "name": "y",
+                    "type": "float",
+                    "uid": 1
+                },
+                {
+                    "expr": "1.6125072911381721",
+                    "name": "z",
+                    "type": "float",
+                    "uid": 2
+                },
+                {
+                    "expr": "0.4991960972547531",
+                    "name": "r",
+                    "type": "float",
+                    "uid": 3
+                },
+                {
+                    "expr": "\u0012fab.types.Shape('-r++q-Xf-0.25107q-Yf0.160917q-Zf1.61251f0.499196',float('-0.750266'),float('-0.338280'),float('1.113311'),float('0.248126'),float('0.660113'),float('2.111703'))",
+                    "name": "shape",
+                    "type": "_fabtypes.Shape",
+                    "uid": 4
+                }
+            ],
+            "inspector": [
+                -86.795603304014918,
+                -425.94495564177436
+            ],
+            "name": "s3",
+            "script": [
+                "import fab",
+                "import math",
+                "",
+                "title('Sphere (center)')",
+                "",
+                "input('x', float)",
+                "input('y', float)",
+                "input('z', float)",
+                "input('r', float)",
+                "",
+                "output('shape', fab.shapes.sphere(x, y, z, r))",
+                "",
+                "# UI",
+                "sb.ui.wireframe([",
+                "    (math.cos(i/36. * 2*math.pi) * r + x,",
+                "     math.sin(i/36. * 2*math.pi) * r + y, z)",
+                "    for i in range(36)], close=True)",
+                "sb.ui.wireframe([(x,y,z-r), (x,y,z+r)])",
+                "",
+                "sb.ui.point(x, y, z)",
+                "sb.ui.point(x, y, z + r, drag=(None, None, r))",
+                "sb.ui.point(x, y, z - r, drag=(None, None, r))",
+                ""
+            ],
+            "uid": 3
+        },
+        {
+            "datums": [
+                {
+                    "expr": "-0.6841750293970108",
+                    "name": "x",
+                    "type": "float",
+                    "uid": 0
+                },
+                {
+                    "expr": "0.3514881134033203",
+                    "name": "y",
+                    "type": "float",
+                    "uid": 1
+                },
+                {
+                    "expr": "2.070820525288582",
+                    "name": "z",
+                    "type": "float",
+                    "uid": 2
+                },
+                {
+                    "expr": "0.4991961419582367",
+                    "name": "r",
+                    "type": "float",
+                    "uid": 3
+                },
+                {
+                    "expr": "\u0012fab.types.Shape('-r++q-Xf-0.684175q-Yf0.351488q-Zf2.07082f0.499196',float('-1.183371'),float('-0.147708'),float('1.571624'),float('-0.184979'),float('0.850684'),float('2.570017'))",
+                    "name": "shape",
+                    "type": "_fabtypes.Shape",
+                    "uid": 4
+                }
+            ],
+            "inspector": [
+                -534.50094769298573,
+                -384.87107083544686
+            ],
+            "name": "s4",
+            "script": [
+                "import fab",
+                "import math",
+                "",
+                "title('Sphere (center)')",
+                "",
+                "input('x', float)",
+                "input('y', float)",
+                "input('z', float)",
+                "input('r', float)",
+                "",
+                "output('shape', fab.shapes.sphere(x, y, z, r))",
+                "",
+                "# UI",
+                "sb.ui.wireframe([",
+                "    (math.cos(i/36. * 2*math.pi) * r + x,",
+                "     math.sin(i/36. * 2*math.pi) * r + y, z)",
+                "    for i in range(36)], close=True)",
+                "sb.ui.wireframe([(x,y,z-r), (x,y,z+r)])",
+                "",
+                "sb.ui.point(x, y, z)",
+                "sb.ui.point(x, y, z + r, drag=(None, None, r))",
+                "sb.ui.point(x, y, z - r, drag=(None, None, r))",
+                ""
+            ],
+            "uid": 4
+        },
+        {
+            "datums": [
+                {
+                    "expr": "-1.1275325864553452",
+                    "name": "x",
+                    "type": "float",
+                    "uid": 0
+                },
+                {
+                    "expr": "0.6406673341989517",
+                    "name": "y",
+                    "type": "float",
+                    "uid": 1
+                },
+                {
+                    "expr": "2.487412638962269",
+                    "name": "z",
+                    "type": "float",
+                    "uid": 2
+                },
+                {
+                    "expr": "0.45903968811035156",
+                    "name": "r",
+                    "type": "float",
+                    "uid": 3
+                },
+                {
+                    "expr": "\u0012fab.types.Shape('-r++q-Xf-1.12753q-Yf0.640667q-Zf2.48741f0.45904',float('-1.586572'),float('0.181628'),float('2.028373'),float('-0.668493'),float('1.099707'),float('2.946452'))",
+                    "name": "shape",
+                    "type": "_fabtypes.Shape",
+                    "uid": 4
+                }
+            ],
+            "inspector": [
+                291.34666931940683,
+                25.142676493779632
+            ],
+            "name": "s5",
+            "script": [
+                "import fab",
+                "import math",
+                "",
+                "title('Sphere (center)')",
+                "",
+                "input('x', float)",
+                "input('y', float)",
+                "input('z', float)",
+                "input('r', float)",
+                "",
+                "output('shape', fab.shapes.sphere(x, y, z, r))",
+                "",
+                "# UI",
+                "sb.ui.wireframe([",
+                "    (math.cos(i/36. * 2*math.pi) * r + x,",
+                "     math.sin(i/36. * 2*math.pi) * r + y, z)",
+                "    for i in range(36)], close=True)",
+                "sb.ui.wireframe([(x,y,z-r), (x,y,z+r)])",
+                "",
+                "sb.ui.point(x, y, z)",
+                "sb.ui.point(x, y, z + r, drag=(None, None, r))",
+                "sb.ui.point(x, y, z - r, drag=(None, None, r))",
+                ""
+            ],
+            "uid": 5
+        },
+        {
+            "datums": [
+                {
+                    "expr": "-1.8047755360603333",
+                    "name": "x",
+                    "type": "float",
+                    "uid": 0
+                },
+                {
+                    "expr": "1.0258305370807648",
+                    "name": "y",
+                    "type": "float",
+                    "uid": 1
+                },
+                {
+                    "expr": "2.790358245372772",
+                    "name": "z",
+                    "type": "float",
+                    "uid": 2
+                },
+                {
+                    "expr": "0.7617132663726807",
+                    "name": "r",
+                    "type": "float",
+                    "uid": 3
+                },
+                {
+                    "expr": "\u0012fab.types.Shape('-r++q-Xf-1.80478q-Yf1.02583q-Zf2.79036f0.761713',float('-2.566489'),float('0.264117'),float('2.028645'),float('-1.043062'),float('1.787544'),float('3.552072'))",
+                    "name": "shape",
+                    "type": "_fabtypes.Shape",
+                    "uid": 4
+                }
+            ],
+            "inspector": [
+                -499.78661307324592,
+                467.42315164134584
+            ],
+            "name": "s6",
+            "script": [
+                "import fab",
+                "import math",
+                "",
+                "title('Sphere (center)')",
+                "",
+                "input('x', float)",
+                "input('y', float)",
+                "input('z', float)",
+                "input('r', float)",
+                "",
+                "output('shape', fab.shapes.sphere(x, y, z, r))",
+                "",
+                "# UI",
+                "sb.ui.wireframe([",
+                "    (math.cos(i/36. * 2*math.pi) * r + x,",
+                "     math.sin(i/36. * 2*math.pi) * r + y, z)",
+                "    for i in range(36)], close=True)",
+                "sb.ui.wireframe([(x,y,z-r), (x,y,z+r)])",
+                "",
+                "sb.ui.point(x, y, z)",
+                "sb.ui.point(x, y, z + r, drag=(None, None, r))",
+                "sb.ui.point(x, y, z - r, drag=(None, None, r))",
+                ""
+            ],
+            "uid": 6
+        },
+        {
+            "datums": [
+                {
+                    "expr": "-1.5744720101356506",
+                    "name": "x",
+                    "type": "float",
+                    "uid": 0
+                },
+                {
+                    "expr": "1.6080687642097473",
+                    "name": "y",
+                    "type": "float",
+                    "uid": 1
+                },
+                {
+                    "expr": "3.066269353032112",
+                    "name": "z",
+                    "type": "float",
+                    "uid": 2
+                },
+                {
+                    "expr": "0.40623557567596436",
+                    "name": "r",
+                    "type": "float",
+                    "uid": 3
+                },
+                {
+                    "expr": "\u0012fab.types.Shape('-r++q-Xf-1.57447q-Yf1.60807q-Zf3.06627f0.406236',float('-1.980708'),float('1.201833'),float('2.660034'),float('-1.168236'),float('2.014304'),float('3.472505'))",
+                    "name": "shape",
+                    "type": "_fabtypes.Shape",
+                    "uid": 4
+                }
+            ],
+            "inspector": [
+                -146.50967870604626,
+                343.82511740576706
+            ],
+            "name": "s7",
+            "script": [
+                "import fab",
+                "import math",
+                "",
+                "title('Sphere (center)')",
+                "",
+                "input('x', float)",
+                "input('y', float)",
+                "input('z', float)",
+                "input('r', float)",
+                "",
+                "output('shape', fab.shapes.sphere(x, y, z, r))",
+                "",
+                "# UI",
+                "sb.ui.wireframe([",
+                "    (math.cos(i/36. * 2*math.pi) * r + x,",
+                "     math.sin(i/36. * 2*math.pi) * r + y, z)",
+                "    for i in range(36)], close=True)",
+                "sb.ui.wireframe([(x,y,z-r), (x,y,z+r)])",
+                "",
+                "sb.ui.point(x, y, z)",
+                "sb.ui.point(x, y, z + r, drag=(None, None, r))",
+                "sb.ui.point(x, y, z - r, drag=(None, None, r))",
+                ""
+            ],
+            "uid": 7
+        },
+        {
+            "datums": [
+                {
+                    "expr": "-2.4301095008850098",
+                    "name": "x",
+                    "type": "float",
+                    "uid": 0
+                },
+                {
+                    "expr": "0.9899539053440094",
+                    "name": "y",
+                    "type": "float",
+                    "uid": 1
+                },
+                {
+                    "expr": "2.921254426240921",
+                    "name": "z",
+                    "type": "float",
+                    "uid": 2
+                },
+                {
+                    "expr": "0.37216341495513916",
+                    "name": "r",
+                    "type": "float",
+                    "uid": 3
+                },
+                {
+                    "expr": "\u0012fab.types.Shape('-r++q-Xf-2.43011q-Yf0.989954q-Zf2.92125f0.372163',float('-2.802273'),float('0.617790'),float('2.549091'),float('-2.057946'),float('1.362117'),float('3.293418'))",
+                    "name": "shape",
+                    "type": "_fabtypes.Shape",
+                    "uid": 4
+                }
+            ],
+            "inspector": [
+                -517.80269414580641,
+                227.1599075889435
+            ],
+            "name": "s8",
+            "script": [
+                "import fab",
+                "import math",
+                "",
+                "title('Sphere (center)')",
+                "",
+                "input('x', float)",
+                "input('y', float)",
+                "input('z', float)",
+                "input('r', float)",
+                "",
+                "output('shape', fab.shapes.sphere(x, y, z, r))",
+                "",
+                "# UI",
+                "sb.ui.wireframe([",
+                "    (math.cos(i/36. * 2*math.pi) * r + x,",
+                "     math.sin(i/36. * 2*math.pi) * r + y, z)",
+                "    for i in range(36)], close=True)",
+                "sb.ui.wireframe([(x,y,z-r), (x,y,z+r)])",
+                "",
+                "sb.ui.point(x, y, z)",
+                "sb.ui.point(x, y, z + r, drag=(None, None, r))",
+                "sb.ui.point(x, y, z - r, drag=(None, None, r))",
+                ""
+            ],
+            "uid": 8
+        }
+    ],
+    "protocol": 6,
+    "type": "sb"
+}
