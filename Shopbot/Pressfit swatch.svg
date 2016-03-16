@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48in"
+   height="96in"
+   viewBox="0 0 4320.0001 8640.0002"
+   id="svg3400"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Pressfit swatch.svg">
+  <defs
+     id="defs3402" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="1599.1171"
+     inkscape:cy="8051.4183"
+     inkscape:document-units="in"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="in"
+     inkscape:window-width="1440"
+     inkscape:window-height="801"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3405">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,7587.6378)">
+    <path
+       style="fill:#ffb380;fill-opacity:1;stroke:#000000;stroke-width:0.09;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1017.1426 234.28516 L 1017.1426 451.42773 L 1078.5586 451.42773 L 1078.5586 344.27344 L 1121.334 344.27344 L 1121.334 451.42773 L 1207.1309 451.42773 L 1207.1309 344.27344 L 1250.0859 344.27344 L 1250.0859 451.42773 L 1351.416 451.42773 L 1351.416 344.27344 L 1394.5508 344.27344 L 1394.5508 451.42773 L 1494.2734 451.42773 L 1494.2734 344.27344 L 1537.5879 344.27344 L 1537.5879 451.42773 L 1638.5586 451.42773 L 1638.5586 345.70117 L 1682.0527 345.70117 L 1682.0527 451.42773 L 1769.9883 451.42773 L 1769.9883 344.27344 L 1813.6621 344.27344 L 1813.6621 451.42773 L 1915.7031 451.42773 L 1915.7031 342.8457 L 1959.377 342.8457 L 1959.377 451.42773 L 2032.8457 451.42773 L 2032.8457 342.8457 L 2076.6992 342.8457 L 2076.6992 451.42773 L 2146.2832 451.42773 L 2146.2832 234.28516 L 1017.1426 234.28516 z "
+       transform="translate(0,-7587.6378)"
+       id="rect3408" />
+  </g>
+</svg>
