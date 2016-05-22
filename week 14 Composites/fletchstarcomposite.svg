@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 540.00001 540.00001"
+   height="6in"
+   width="6in"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="fletchstarcomposite.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1199"
+     inkscape:window-height="619"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="0.43703704"
+     inkscape:cx="270"
+     inkscape:cy="270"
+     inkscape:window-x="20"
+     inkscape:window-y="43"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-512.36215)"
+     id="layer1">
+    <path
+       transform="matrix(1.5241149,0,0,1.604561,43.705343,-256.95094)"
+       d="m 258.93073,746.59415 c -57.30311,70.27165 -1.11597,-52.03407 -89.71654,-32.75479 -93.05413,20.24836 15.29915,102.70426 -73.490243,68.27302 -84.53995,-32.78337 49.142483,-17.14077 3.42772,-95.4473 -48.012644,-82.24264 -92.9498552,46.28772 -87.641231,-48.79585 5.054553,-90.53288 31.4877,41.4405 91.834994,-26.23488 63.38068,-71.07711 -72.745324,-74.09687 19.32498,-98.43051 87.66384,-23.16903 -29.682018,42.7524 53.32943,79.23325 87.18406,38.31457 47.99077,-92.08211 99.58472,-12.03755 49.12468,76.21363 -49.83219,-15.01806 -58.87559,75.20372 -9.49797,94.75682 102.40525,17.187 42.22176,90.99089 z"
+       id="path3336"
+       style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.09;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m 320.22742,787.40924 a 47.692543,46.566074 0 0 1 -47.53001,46.5658 47.692543,46.566074 0 0 1 -47.85396,-46.24843 47.692543,46.566074 0 0 1 47.20387,-46.88101 47.692543,46.566074 0 0 1 48.17567,45.92892"
+       id="path3340"
+       style="fill:#ff2a2a;fill-opacity:1;stroke:#000000;stroke-width:0.06576984;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>
